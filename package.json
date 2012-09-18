@@ -1,0 +1,9 @@
+{
+    "name": "lazimages",
+    "version": "0.0.1",
+    "description": "Create lazily images",
+    "preferGlobal": "true",
+    "bin": { "lazimages": "./lazimages.js" },
+    "author": "Nobuti",
+    "engines": { "node": "*" }
+}
