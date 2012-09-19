@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
 function make(){
-  var name = base[0]+((times > 1)?"_"+times:"")+"."+(base[1]||'jpg');
+  var name = base[0]+((times > 1)?"_"+times:"")+"."+(base[1]||'png');
   gm(argv.w, argv.h, "#cccccc")
-    .font("Arial.ttf", Math.floor(argv.w/10))
+    .font(__dirname+"/webfont.ttf", Math.floor(argv.w/10))
     .fill("#ffffff")
     .drawText(0, 0, argv.w+"x"+argv.h,"Center")
     .write(name, function (err) {
