@@ -1,5 +1,5 @@
-Command line utility to create lazy images
-==========================================
+Command line utility node.js based to create lazy images
+========================================================
 
 Usage:
 
