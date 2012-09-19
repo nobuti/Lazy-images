@@ -1,10 +1,12 @@
 Command line utility to create lazy images
 ==========================================
 
-Usage: 
+Usage:
+
     lazimages --width [number] --height [number] --file [string] --times [number]
 
 Options:
+
     -w, --width   [required] width of result image
     -h, --height  [required] height of result image
     -t, --times   [default: 1] number of images to create
